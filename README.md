@@ -283,4 +283,14 @@ dtype: int64
 
     - Automated Report Generation
 
-For contributions, feel free to fork the repository and submit pull requests!
+### Documentation
+
+📚 **Documentation**
+    - [Setup Guide](docs/setup.md)
+    - [Model Training](docs/training.md)
+
+### Contributors
+
+    - Vijayagopal S - [GitHub](https://github.com/vijayagopalsb)
+
+

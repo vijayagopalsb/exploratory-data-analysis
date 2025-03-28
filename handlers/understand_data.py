@@ -11,13 +11,15 @@ from logging_config import logger
 class UnderstandDataset(EDAHandler):
     
     def process(self, dataframe):
-        logger.info("Step 1: Understanding the datset ...")
-        
-        print("\nDisplay Features of Dataset:")
-        print(dataframe.info())
-        print("\nSummary Statistics:")
-        print(dataframe.describe(include= "all"))
-        print("\nMissing Values:")
-        print(dataframe.isnull().sum())
-        
-        return dataframe # Pass to next handler
+        logger.info("Step 1: -->> Understanding the dataset ...")
+
+        logger.info("\nDisplay Features of Dataset:")
+        logger.info(dataframe.info())
+
+        logger.info("\nSummary Statistics:")
+        logger.info(dataframe.describe(include="all"))
+
+        logger.info("\nMissing Values:")
+        logger.info(dataframe.isnull().sum())
+
+        return dataframe  # Pass to next handler
